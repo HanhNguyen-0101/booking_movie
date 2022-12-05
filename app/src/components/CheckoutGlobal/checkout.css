@@ -1,0 +1,80 @@
+.infoTicket input:disabled {
+    background-color: transparent;
+}
+
+.ghe {
+    color: gray;
+    font-size: 38px;
+    display: inline-block;
+    margin: -8px 0;
+    cursor: pointer;
+}
+.ghe::before {
+    content: "\f2d0";
+    font-family: 'FontAwesome';
+}
+
+.ghe:focus-visible, .ghe:focus-within, .ghe:focus {
+    outline: none;
+}
+
+.gheVip {
+    color: rgb(227, 190, 33);
+}
+
+.gheDangChon {
+    color: rgb(130, 208, 11);
+}
+
+.gheDaDuocMua {
+    color: rgb(245, 7, 7);
+    cursor: no-drop;
+}
+
+.gheKhachDangChon {
+    color: rgb(112, 165, 218);
+    cursor: no-drop;
+}
+
+.gheKhachDangChon::before {
+    content: "\f2d3";
+    font-family: 'FontAwesome';
+}
+
+.gheDaDuocMua::before {
+    content: "\f2d4";
+    font-family: 'FontAwesome';
+}
+
+.gheTitle {
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: -15px;
+    left: -30px;
+}
+
+/* *************** */
+input[type="radio"] + label span {
+    transition: background .2s,
+      transform .2s;
+}
+
+input[type="radio"] + label span:hover,
+input[type="radio"] + label:hover span{
+  transform: scale(1.2);
+} 
+
+input[type="radio"]:checked + label span {
+  background-color: red;
+  box-shadow: 0px 0px 0px 2px white inset;
+}
+
+input[type="radio"]:checked + label .payment span {
+    background-color: transparent;
+    box-shadow: 0px 0px 0px 2px white inset;
+  }
+
+input[type="radio"]:checked + label{
+   color: black;
+}

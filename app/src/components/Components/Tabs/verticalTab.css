@@ -1,0 +1,53 @@
+.ant-tabs-nav .ant-tabs-tab {
+    opacity: 0.5;
+}
+.ant-tabs-nav .ant-tabs-tab.ant-tabs-tab-active {
+    opacity: 1;
+    transition: all 2ms;
+}
+.ant-tabs-content-holder .ant-tabs-content-holder, .ant-tabs-nav {
+    max-height: 685px;
+    overflow-y: auto;
+}
+.ant-tabs-content-holder .ant-tabs-content-holder::-webkit-scrollbar, .ant-tabs-nav::-webkit-scrollbar {
+    width: 5px;
+}
+
+.ant-tabs-content-holder .ant-tabs-content-holder::-webkit-scrollbar-track, .ant-tabs-nav::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 5px;
+}
+
+.ant-tabs-content-holder .ant-tabs-content-holder::-webkit-scrollbar-thumb, .ant-tabs-nav::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+.ant-tabs-tab {
+    padding: 16px 0 !important;
+    border-bottom: 1px solid gainsboro;
+    margin: 0 24px !important;
+}
+.ant-tabs-left > .ant-tabs-content-holder > .ant-tabs-content > .ant-tabs-tabpane, .ant-tabs-left > div > .ant-tabs-content-holder > .ant-tabs-content > .ant-tabs-tabpane {
+    padding-left: 0;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn, .ant-tabs-tab-btn:focus, .ant-tabs-tab-remove:focus, .ant-tabs-tab-btn:active, .ant-tabs-tab-remove:active, .ant-tabs-tab:hover {
+    color: black;
+    opacity: 0.8;
+}
+.ant-tabs-tab h5 {
+    padding-bottom: 6px;
+}
+.ant-tabs-tab.ant-tabs-tab-active h5, .ant-tabs-tab:hover h5 {
+    color: #ef4444;
+}
+
+.custom-tabs .ant-tabs-tab-active b {
+    color: red !important;
+}
+.ant-tabs > .ant-tabs-nav, .ant-tabs > div > .ant-tabs-nav {
+    margin-bottom: -1px;
+}
+
+.ant-tabs-top > .ant-tabs-nav::before, .ant-tabs-bottom > .ant-tabs-nav::before, .ant-tabs-top > div > .ant-tabs-nav::before, .ant-tabs-bottom > div > .ant-tabs-nav::before {
+    border-bottom: none;
+}

@@ -1,0 +1,16 @@
+.slick-dots li button:before {
+  font-size: 14px;
+  color: white;
+  opacity: 1;
+}
+.slick-dots li.slick-active button:before {
+  color: orangered;
+  opacity: 1;
+}
+.slick-slider {
+  overflow-x: hidden;
+}
+.multi-carousel-homepage .slick-list {
+  margin: auto;
+  max-width: 1000px;
+}

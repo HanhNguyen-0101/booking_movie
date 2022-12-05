@@ -1,0 +1,74 @@
+#components-layout-demo-custom-trigger .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+.ant-layout-sider-collapsed .nameCompany, .ant-layout-sider-collapsed .adminNav {
+  display: none;
+}
+.ant-layout-sider-collapsed .logo {
+  justify-content: center;
+  padding: 24px 0;
+}
+.ant-layout-sider-collapsed .adminLink {
+  justify-content: center;
+}
+
+.logo {
+  padding: 24px;
+}
+.adminNav {
+  display: inline-block;
+}
+
+.nameCompany {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected, .ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+  background-color: #f13f3f;
+}
+
+.search-btn .ant-btn-primary, .ant-btn-primary, .ant-btn-primary:hover, .ant-btn-primary:focus {
+  background-color: #f13f3f;
+  border-color: #f13f3f;
+}
+
+.search-btn.ant-input-search .ant-input:hover, .search-btn.ant-input-search .ant-input:focus, .ant-picker:hover, .ant-picker-focused, .ant-input:hover, .ant-select:not(.ant-select-disabled):hover .ant-select-selector, .ant-input-number:hover {
+  border-color: #f13f3f;
+}
+.ant-input:focus, .ant-input-focused, .ant-picker-focused, .ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) .ant-select-selector, .ant-input-number:focus, .ant-input-number-focused {
+  box-shadow: 0 0 0 2px rgb(255 97 24 / 20%);
+  border-color: #f13f3f;
+}
+
+.ant-switch-checked {
+  background-color: #fc6a6a;
+}
+.ant-btn-default.ant-btn:hover, .ant-btn-default.ant-btn:focus {
+  color: #fc6a6a;
+}
+.ant-btn:hover, .ant-btn:focus {
+  color: white;
+  border-color: #f13f3f;
+}
+.ant-input-search > .ant-input-group > .ant-input-group-addon:last-child {
+  display: none;
+}
