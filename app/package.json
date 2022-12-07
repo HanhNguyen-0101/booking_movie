@@ -1,7 +1,12 @@
 {
-  "name": "my-react-app",
+  "name": "booking_movie",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Alice Nguyen",
+    "email": "hanhnguyen.learning@gmail.com"
+  },
+  "homepage": "https://HanhNguyen-0101.github.io/booking_movie/",
   "dependencies": {
     "@aspnet/signalr": "^1.0.27",
     "@craco/craco": "^6.1.1",
@@ -37,7 +42,9 @@
     "start": "craco --openssl-legacy-provider start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -61,6 +68,7 @@
     "@tailwindcss/postcss7-compat": "^2.0.3",
     "autoprefixer": "^9.8.6",
     "postcss": "^7.0.35",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3",
+    "gh-pages": "^4.0.0"
   }
 }
