@@ -27,7 +27,7 @@ export default function Header() {
             width={60}
             height={60}
             alt="homepage"
-            src="/images/logoTixLoading.png"
+            src="./images/logoTixLoading.png"
           />
         </NavLink>
         <ul className="items-stretch hidden space-x-3 lg:flex">
@@ -66,10 +66,10 @@ export default function Header() {
             className="flag"
           >
             <Option value="vi">
-              <Avatar className="mr-2" size={20} src="/images/vi.png" /> VI
+              <Avatar className="mr-2" size={20} src="./images/vi.png" /> VI
             </Option>
             <Option value="en">
-              <Avatar className="mr-2" size={20} src="/images/en.png" /> EN
+              <Avatar className="mr-2" size={20} src="./images/en.png" /> EN
             </Option>
           </Select>
           {!userLogin.taiKhoan && (
