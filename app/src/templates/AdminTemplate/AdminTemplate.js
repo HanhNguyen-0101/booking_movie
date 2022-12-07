@@ -71,7 +71,7 @@ export default function AdminTemplate(props) {
                         height={40}
                         alt="homepage"
                         className="inline-block"
-                        src="/images/logoTixLoading.png"
+                        src="./images/logoTixLoading.png"
                       />
                       <span className="text-white font-bold nameCompany">
                         {t("company")}
@@ -125,7 +125,7 @@ export default function AdminTemplate(props) {
                           <Avatar
                             className="mr-2"
                             size={20}
-                            src="/images/vi.png"
+                            src="./images/vi.png"
                           />{" "}
                           VI
                         </Option>
@@ -133,7 +133,7 @@ export default function AdminTemplate(props) {
                           <Avatar
                             className="mr-2"
                             size={20}
-                            src="/images/en.png"
+                            src="./images/en.png"
                           />{" "}
                           EN
                         </Option>

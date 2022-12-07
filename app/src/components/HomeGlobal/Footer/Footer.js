@@ -24,7 +24,7 @@ export default function Footer() {
           >
             <img
               alt="images/logoTixLoading.png"
-              src="/images/logoTixLoading.png"
+              src="./images/logoTixLoading.png"
               width={100}
               style={{ margin: "auto" }}
             />
@@ -163,7 +163,7 @@ export default function Footer() {
                 className="pb-4"
                 alt="certificate.png"
                 style={{ margin: "auto" }}
-                src="/images/certificate.png"
+                src="./images/certificate.png"
               />
               <p>
                 <b>{t("f1")}</b>
