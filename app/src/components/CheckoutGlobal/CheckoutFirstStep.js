@@ -171,7 +171,7 @@ export default function CheckoutFirstStep(props) {
                 left: 0,
                 transform: "translate(55%, 50%)",
                 zIndex: 0,
-                backgroundImage: 'url("/images/seatcenter.png")',
+                backgroundImage: 'url("./images/seatcenter.png")',
                 width: 350,
                 height: 200,
               }}
@@ -189,7 +189,7 @@ export default function CheckoutFirstStep(props) {
           <div
             className="m-auto bg-white bg-contain bg-no-repeat"
             style={{
-              backgroundImage: 'url("/images/screen.png")',
+              backgroundImage: 'url("./images/screen.png")',
               height: 100,
               width: 800,
             }}

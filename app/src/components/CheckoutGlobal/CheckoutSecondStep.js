@@ -17,22 +17,22 @@ export default function CheckoutSecondStep({
   const payments = [
     {
       id: "zalo",
-      image: "/images/zalo.jpg",
+      image: "./images/zalo.jpg",
       title: t("zalopay"),
     },
     {
       id: "card",
-      image: "/images/visa.png",
+      image: "./images/visa.png",
       title: t("visa"),
     },
     {
       id: "atm",
-      image: "/images/atm.png",
+      image: "./images/atm.png",
       title: t("atm"),
     },
     {
       id: "store",
-      image: "/images/cuahang.png",
+      image: "./images/cuahang.png",
       title: t("store"),
     },
   ];

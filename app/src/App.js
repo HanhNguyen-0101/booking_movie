@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Switch } from "react-router-dom";
+import { HashRoHashRouter, uter, Switch } from "react-router-dom";
 import { createBrowserHistory } from "history";
 import HomeTemplate from "./templates/HomeTemplate/HomeTemplate";
 import HomePage from "./pages/client/HomePage/HomePage";
@@ -23,7 +23,7 @@ export const history = createBrowserHistory();
 
 function App() {
   return (
-    <BrowserRouter history={history}>
+    <HashRouter history={history}>
       <Loading />
       <DrawerHOC />
       <Switch>
@@ -68,7 +68,7 @@ function App() {
         <HomeTemplate exact path="/" Component={HomePage} />
         <HomeTemplate path="*" Component={NotFoundPage} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
