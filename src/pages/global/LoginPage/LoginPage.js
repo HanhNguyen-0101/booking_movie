@@ -35,7 +35,7 @@ export default function LoginPage() {
               width={60}
               height={60}
               alt="homepage"
-              src="./images/logoTixLoading.png"
+              src="/images/logoTixLoading.png"
             />
           </NavLink>
         </div>

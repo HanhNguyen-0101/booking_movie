@@ -46,7 +46,7 @@ export default function DetailPage(props) {
               <img alt="film" src={theatersByFilm.hinhAnh} />
               <img
                 alt="play"
-                src="./images/play-video.png"
+                src="/images/play-video.png"
                 className="absolute"
                 style={{
                   display: "none",
