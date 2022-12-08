@@ -7,7 +7,7 @@ export default function Loading() {
   const loadingClass = isLoading ? "show-loading" : "hide-loading";
   return (
     <div className={`${LoadingStyle.loading} ${LoadingStyle[loadingClass]}`}>
-      <img alt="loading" src="/images/logoTixLoading.png" />
+      <img alt="loading" src="./images/logoTixLoading.png" />
     </div>
   );
 }
