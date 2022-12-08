@@ -1,5 +1,5 @@
 import "./App.css";
-import { HashRoHashRouter, uter, Switch } from "react-router-dom";
+import { HashRouter, Switch } from "react-router-dom";
 import { createBrowserHistory } from "history";
 import HomeTemplate from "./templates/HomeTemplate/HomeTemplate";
 import HomePage from "./pages/client/HomePage/HomePage";
